@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Запуск программы")]
 [assembly: AssemblyDescription("Запуск программы из папки с версией")]
 [assembly: AssemblyCompany("П3тр0виЧъ")]
-[assembly: AssemblyProduct("ProgramStart")]
+[assembly: AssemblyProduct("Запуск программы")]
 [assembly: AssemblyCopyright("© П3тр0виЧъ")]
 [assembly: AssemblyTrademark("П3тр0виЧъ™")]
 [assembly: AssemblyCulture("")]

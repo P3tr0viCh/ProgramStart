@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+	<ItemGroup>
+		<Compile Include="..\..\Updater\Updater\Properties\AssemblyInfo.cs" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<AssemblyName>Updater</AssemblyName>
+
+		<OutputPath>..\..\..\..\Projects.exe\ProgramStart\Release.Updater\</OutputPath>
+		
+		<ApplicationIcon>..\..\Updater\Updater\Updater.ico</ApplicationIcon>
+	</PropertyGroup>
+</Project>

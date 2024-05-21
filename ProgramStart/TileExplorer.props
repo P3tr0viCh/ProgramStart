@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+	<ItemGroup>
+		<Compile Include="..\..\TileExplorer\TileExplorer\Properties\AssemblyInfo.cs" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<AssemblyName>TileExplorer</AssemblyName>
+
+		<OutputPath>..\..\..\..\Projects.exe\ProgramStart\Release.TileExplorer\</OutputPath>
+		
+		<ApplicationIcon>..\..\TileExplorer\TileExplorer\TileExplorer.ico</ApplicationIcon>
+	</PropertyGroup>
+</Project>
