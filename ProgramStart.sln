@@ -8,18 +8,21 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Release.TileExplorer|Any CPU = Release.TileExplorer|Any CPU
+		Release.WA|Any CPU = Release.WA|Any CPU
 		Release.Updater|Any CPU = Release.Updater|Any CPU
+		Release.TileExplorer|Any CPU = Release.TileExplorer|Any CPU
 		Release.WeightTerminal|Any CPU = Release.WeightTerminal|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release.TileExplorer|Any CPU.ActiveCfg = Release.TileExplorer|Any CPU
-		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release.TileExplorer|Any CPU.Build.0 = Release.TileExplorer|Any CPU
+		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release.WA|Any CPU.ActiveCfg = Release.WA|Any CPU
+		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release.WA|Any CPU.Build.0 = Release.WA|Any CPU
 		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release.Updater|Any CPU.ActiveCfg = Release.Updater|Any CPU
 		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release.Updater|Any CPU.Build.0 = Release.Updater|Any CPU
+		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release.TileExplorer|Any CPU.ActiveCfg = Release.TileExplorer|Any CPU
+		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release.TileExplorer|Any CPU.Build.0 = Release.TileExplorer|Any CPU
 		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release.WeightTerminal|Any CPU.ActiveCfg = Release.WeightTerminal|Any CPU
 		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release.WeightTerminal|Any CPU.Build.0 = Release.WeightTerminal|Any CPU
 		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU

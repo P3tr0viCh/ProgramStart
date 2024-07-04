@@ -37,6 +37,15 @@
     <ApplicationIcon>
     </ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release.WA|AnyCPU'">
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release.Updater|AnyCPU'">
     <DefineConstants>TRACE</DefineConstants>
     <Optimize>true</Optimize>
@@ -95,6 +104,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <Import Condition="'$(Configuration)|$(Platform)' == 'Release.WA|AnyCPU'" Project="WA.props" />
   <Import Condition="'$(Configuration)|$(Platform)' == 'Release.Updater|AnyCPU'" Project="Updater.props" />
   <Import Condition="'$(Configuration)|$(Platform)' == 'Release.TileExplorer|AnyCPU'" Project="TileExplorer.props" />
   <Import Condition="'$(Configuration)|$(Platform)' == 'Release.WeightTerminal|AnyCPU'" Project="WeightTerminal.props" />
