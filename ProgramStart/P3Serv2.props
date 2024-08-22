@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+	<PropertyGroup>
+		<AssemblyName>P3Serv2</AssemblyName>
+
+		<OutputPath>..\..\..\..\Projects.exe\ProgramStart\Release.P3Serv2\</OutputPath>
+		
+		<ApplicationIcon>..\..\P3Serv2\P3Serv2\P3Serv2.ico</ApplicationIcon>
+	</PropertyGroup>
+</Project>

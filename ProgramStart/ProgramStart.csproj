@@ -73,6 +73,15 @@
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release.P3Serv2|AnyCPU'">
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -108,5 +117,6 @@
   <Import Condition="'$(Configuration)|$(Platform)' == 'Release.Updater|AnyCPU'" Project="Updater.props" />
   <Import Condition="'$(Configuration)|$(Platform)' == 'Release.TileExplorer|AnyCPU'" Project="TileExplorer.props" />
   <Import Condition="'$(Configuration)|$(Platform)' == 'Release.WeightTerminal|AnyCPU'" Project="WeightTerminal.props" />
+  <Import Condition="'$(Configuration)|$(Platform)' == 'Release.P3Serv2|AnyCPU'" Project="P3Serv2.props" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
