@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+	<PropertyGroup>
+		<AssemblyName>ProgramStart</AssemblyName>
+
+		<OutputPath>..\..\..\..\Projects.exe\ProgramStart\Debug\</OutputPath>
+		
+		<ApplicationIcon></ApplicationIcon>
+	</PropertyGroup>
+</Project>

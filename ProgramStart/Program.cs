@@ -1,7 +1,9 @@
-﻿using System;
+﻿using ProgramStart.Properties;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace ProgramStart
@@ -23,7 +25,18 @@ namespace ProgramStart
 
             foreach (var dir in Directory.EnumerateDirectories(rootDir))
             {
-                Debug.WriteLine(dir);
+                var dirName = Path.GetFileName(dir);
+
+                if (Regex.IsMatch(dirName, Resources.DirNamePattern))
+                {
+                    Debug.WriteLine($"+ {dirName}: {dir}");
+                }
+                else
+                {
+                    Debug.WriteLine($"- {dirName}: {dir}");
+
+                    continue;
+                }
 
                 var file = Path.Combine(dir, fileName);
 
@@ -61,10 +74,10 @@ namespace ProgramStart
             }
             catch (Exception e)
             {
-                Debug.WriteLine(e.ToString());  
+                Debug.WriteLine(e.ToString());
             }
 
-            Debug.WriteLine("done");
+            Console.WriteLine("done");
         }
     }
 }
