@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+	<PropertyGroup>
+		<AssemblyName>data2reo2</AssemblyName>
+
+		<OutputPath>..\..\..\..\Projects.exe\ProgramStart\Release.data2reo2\</OutputPath>
+		
+		<ApplicationIcon>..\..\data2reo2\data2reo2\data2reo2.ico</ApplicationIcon>
+	</PropertyGroup>
+</Project>
