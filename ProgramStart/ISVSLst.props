@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+	<PropertyGroup>
+		<AssemblyName>ISVSLst</AssemblyName>
+
+		<OutputPath>..\..\..\..\Projects.exe\ProgramStart\Release.ISVSLst\</OutputPath>
+		
+		<ApplicationIcon>..\..\ISVSLst\ISVSLst\ISVSLst.ico</ApplicationIcon>
+	</PropertyGroup>
+</Project>
