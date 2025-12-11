@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+	<PropertyGroup>
+		<AssemblyName>DateInsert2</AssemblyName>
+
+		<OutputPath>..\..\..\..\Projects.exe\ProgramStart\Release.DateInsert2\</OutputPath>
+		
+		<ApplicationIcon>..\..\DateInsert2\DateInsert2\DateInsert2.ico</ApplicationIcon>
+	</PropertyGroup>
+</Project>
