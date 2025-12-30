@@ -17,6 +17,7 @@ Global
 		Release.data2reo2|Any CPU = Release.data2reo2|Any CPU
 		Release.ISVSLst|Any CPU = Release.ISVSLst|Any CPU
 		Release.DateInsert2|Any CPU = Release.DateInsert2|Any CPU
+		Release.Technics|Any CPU = Release.Technics|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -39,6 +40,8 @@ Global
 		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release.ISVSLst|Any CPU.Build.0 = Release.ISVSLst|Any CPU
 		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release.DateInsert2|Any CPU.ActiveCfg = Release.DateInsert2|Any CPU
 		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release.DateInsert2|Any CPU.Build.0 = Release.DateInsert2|Any CPU
+		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release.Technics|Any CPU.ActiveCfg = Release.Technics|Any CPU
+		{3605D35F-49D1-4D33-AE72-F4CEB6214FEC}.Release.Technics|Any CPU.Build.0 = Release.Technics|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
